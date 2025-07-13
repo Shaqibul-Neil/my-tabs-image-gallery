@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Image Filter Buttons</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="image-filter">
+      <div class="filter-btn-container">
+        <button class="btn filter_btn active_btn" data-filter="people">
+          People
+        </button>
+        <button class="btn filter_btn" data-filter="nature">Nature</button>
+        <button class="btn filter_btn" data-filter="animals">Animals</button>
+        <button class="btn filter_btn" data-filter="all">All</button>
+      </div>
+      <div class="filter_content">
+        <div class="contents content_active" data-category="animals">
+          <img src="images/animals.png" alt="" />
+        </div>
+        <div class="contents content_active" data-category="people">
+          <img src="images/people2.png" alt="" />
+        </div>
+        <div class="contents" data-category="nature">
+          <img src="images/nature.png" alt="" />
+        </div>
+        <div class="contents" data-category="animals">
+          <img src="images/animals2.png" alt="" />
+        </div>
+        <div class="contents" data-category="people">
+          <img src="images/people.png" alt="" />
+        </div>
+        <div class="contents" data-category="nature">
+          <img src="images/nature2.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
